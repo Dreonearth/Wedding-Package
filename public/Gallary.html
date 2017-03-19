@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<title>UNSEEN WEDDING</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h5 {font-family: "EDPenSook", sans-serif}
+body, html {height: 100%}
+
+.w3-half img{margin-bottom:2px;margin-top:1px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+
+.mySlides {display:none}
+.demo {cursor:pointer}
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-third img{margin-bottom: -10px; opacity: 0.8; cursor: pointer}
+.w3-third img:hover{opacity: 1}
+}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #000;
+    line-height: 1.8;
+    font-family: "EDPenSook";
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('/w3images/parallax1.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("/w3images/parallax2.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("/w3images/parallax3.jpg");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+</style>
+
+<body >
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-opennav w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="home.html" class="w3-bar-item w3-button"><i class="fa fa-home" aria-hidden="true"></i> HOME</a>
+    <a href="index.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> OUR STORY</a>
+    <a href="gallary.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> GALLERY</a>
+    <a href="video.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-video-camera"></i> CERERMONY</a>
+
+    <a href="calendar.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-calendar"></i> EVENTS</a>
+
+    <a href="contact.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-paper-plane"></i> CONTACTS</a>
+
+
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b><font face="EDPenSook">UNSEEN WEDDING PHOTO</font></b></h1>
+    <h6><font face="EDPenSook">Welcome to the gallery of </font><span class="w3-tag"><font face="EDPenSook">Unseen Photo's</font></span></h6>
+  </header>
+
+<!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="https://scontent.fbkk9-1.fna.fbcdn.net/v/t31.0-8/16252442_865764833526891_6263279371227573235_o.jpg?oh=cea509c736d0463ae9f15e0b2c853329&oe=5970E935" alt="HOME" width="1600" height="1060">
+  </header>
+  
+
+<!-- Navbar on small screens -->
+<div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
+<div class="w3-bar w3-light-grey">
+  <a href="#" class="w3-bar-item w3-button">Home</a>
+  <a href="#portfolio" class="w3-bar-item w3-button">Portfolio</a>
+  <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+</div>
+</div>
+<br>
+
+<center> <p><font color="#8B6914"><font face="EDPenSook"><font size="7">AT MY GALLERY'</font></font></font>
+    </p></center>
+
+<center> <p><font color="#363636"><font face="EDPenSook"><font size="5">UNSEEN WEDDING PHOTO 's </font><br> Everything is Impress all the things you do not see. <br> We will keep to impress.
+Photography services for all season<br>  </font></font>
+    </p></center>
+    <br>
+
+
+
+
+
+	<div align="center"> <iframe width="853" height="480" src="https://www.youtube.com/embed/AUtLtz4xPC8?rel=0&amp;controls=0&amp;showinfo=0?ecver=1?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe></div>
+
+
+<div class="w3-row-padding w3-margin-top">
+  <div class="w3-third">
+    <div class="w3-card-2">
+      <img src="https://scontent.fbkk9-1.fna.fbcdn.net/v/t31.0-8/16178962_865765436860164_8705154176962815252_o.jpg?oh=ef25c10381a16b264af441840bcecded&oe=592870CF" style="width:100%" onclick="onClick(this)" alt="Unseen in Tokyo_Sweet Bloomsom Prewedding & Honeymoon in Tokyo,Japan">
+    </div>
+  </div>
+
+  <div class="w3-third">
+    <div class="w3-card-2">
+      <img src="https://scontent.fbkk9-1.fna.fbcdn.net/v/t31.0-8/16252255_865765270193514_3021947239692721878_o.jpg?oh=4c87654062925d78846819e911636974&oe=5972DD8B" style="width:100%" onclick="onClick(this)" alt="Unseen in Tokyo_Sweet Bloomsom Prewedding & Honeymoon in Tokyo,Japan">
+    </div>
+  </div>
+
+  <div class="w3-third">
+    <div class="w3-card-2">
+      <img src="https://scontent.fbkk9-1.fna.fbcdn.net/v/t31.0-8/16143858_865764706860237_6991499903271634488_o.jpg?oh=4a77b36348dd9688d854f416cfaeb753&oe=5935ABC7" style="width:100%" onclick="onClick(this)" alt="Unseen in Tokyo_Sweet Bloomsom Prewedding & Honeymoon in Tokyo,Japan">
+    </div>
+  </div>
+</div>
+
+<div class="w3-row-padding w3-margin-top">
+  <div class="w3-third">
+    <div class="w3-card-2">
+      <img src="https://scontent.fbkk9-1.fna.fbcdn.net/v/t31.0-8/16300056_865760116860696_8239257078160881139_o.jpg?oh=4e121396762b9bbf9032ee91fd55eed0&oe=593361B9" style="width:100%" onclick="onClick(this)" alt="Unseen in Tokyo_Sweet Bloomsom Prewedding & Honeymoon in Tokyo,Japan">
+    </div>
+  </div>
+
+  <div class="w3-third">
+    <div class="w3-card-2">
+      <img src="https://scontent.fbkk9-1.fna.fbcdn.net/v/t31.0-8/16177854_865764313526943_8702691213922778616_o.jpg?oh=2de46b8da237c233e6cf0d9c7fadef0f&oe=59303756" style="width:100%" onclick="onClick(this)" alt="Unseen in Tokyo_Sweet Bloomsom Prewedding">
+    </div>
+  </div>
+
+  <div class="w3-third">
+    <div class="w3-card-2">
+      <img src="https://scontent.fbkk9-1.fna.fbcdn.net/v/t31.0-8/16299862_865764466860261_1314073586205786586_o.jpg?oh=3a71dc7df67fafb70632b48243523984&oe=593D0446" style="width:100%" onclick="onClick(this)" alt="Unseen in Tokyo_Sweet Bloomsom Prewedding">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<center> <p><font color="#8B6914"><font face="EDPenSook"><font size="7">KEEP ON YOUR MEMORIES</font></font></font>
+    </p></center>
+
+<center> <p><font color="#363636"><font face="EDPenSook"><font size="3"><font size="4">only <font color="#8B6914"><b>SMILE (:</b></font> </font></font><br> Love does not consist in gazing at each other but in looking together in the same direction. <br> You can close your eyes to things you don’t want to see, but you can’t close your heart to things you don’t want to feel. </font></font>
+    </p></center>
+   
+
+<!--><!-->
+<!--> <!-->
+<div class="w3-content" style="max-width:1300px">
+  <img class="mySlides" src="https://scontent.fbkk9-1.fna.fbcdn.net/v/t31.0-8/16252547_865762630193778_1343947543927189442_o.jpg?oh=fc828651429ec63d5a6d77303dca0395&oe=593ADC65" style="width:100%">
+</div>
+
+  </div>
+
+<br>
+
+<!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="https://scontent.fbkk9-1.fna.fbcdn.net/v/t31.0-8/16299819_865760953527279_5079363891415954657_o.jpg?oh=e75fa671d4901c4ac3223838c19d8d4c&oe=59470ACD" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center"><font face="EDPenSook">About Gallery</font></h1>
+      <h5 class="w3-center"><font face="EDPenSook">Tradition since 2016</font></h5>
+      <p class="w3-large"><font face="EDPenSook">You know when you love someone when you want them to be happy even if their happiness means that you’re not part of it.To love is to risk not being loved in return. To hope is to risk pain. To try is to risk failure, but risk must be taken, because the greatest hazard in life is to risk nothing.A lot of stories happen everyday you could know what had happened yesterday. How can you be sure what will happen tomorrow? Think of something you never say Are you waiting until the day? To say “I LOVE YOU”</font>
+    </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black w3-padding-0" onclick="this.style.display='none'">
+    <span class="w3-closebtn w3-text-white w3-opacity w3-hover-opacity-off w3-xxlarge w3-container w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+
+  
+	<div class="w3-black w3-center w3-padding-24"><font face="EDPenSook">By. <a href="https://www.facebook.com/unseenwedding/" title="W3.CSS" target="_blank" class="w3-hover-opacity">UNSEEN WEDDING PHOTO</font></a>
+		
+	<div class="w3-xlarge w3-section">
+    <a href="http://www.facebook.com/unseenwedding" title="W3.CSS" target="_blank" class="w3-hover-opacity"><i class="fa fa-facebook-official w3-hover-text-indigo"></i></a>
+
+    <a href="http://www.selfiehashtag.com/SelfieUserMedia/27682210" title="W3.CSS" target="_blank" class="w3-hover-opacity"><i class="fa fa-instagram w3-hover-text-purple"></i></a>
+
+    <a href="http://www.pinterest.com/unseenwedding/" title="W3.CSS" target="_blank" class="w3-hover-opacity"><i class="fa fa-pinterest-p w3-hover-text-red"></i></a>
+
+    <a href="https://twitter.com/unseenwedding" title="W3.CSS" target="_blank" class="w3-hover-opacity"><i class="fa fa-twitter w3-hover-text-light-blue"></i></a>
+
+    <a href="http://www.unseenweddingphoto.com/" title="W3.CSS" target="_blank" class="w3-hover-opacity"><i class="fa fa-linkedin w3-hover-text-indigo"></i></a>
+  </div>
+
+  <!-- End page content -->
+</div>
+<script>
+// Script to open and close sidenav
+function w3_open() {
+    document.getElementById("mySidenav").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidenav").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
+}
+
+</script>
+
+
+
+</body>
+</html>
